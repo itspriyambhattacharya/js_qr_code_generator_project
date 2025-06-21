@@ -1,5 +1,6 @@
 const inputField = document.querySelector("#text");
 const btn = document.querySelector(`button[type="button"]`);
+const imgBox = document.querySelector("#img-box");
 const imgTag = document.querySelector("#qr-img");
 
 console.log(imgTag);
