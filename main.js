@@ -1,5 +1,8 @@
 const inputField = document.querySelector("#text");
 const btn = document.querySelector(`button[type="button"]`);
+const imgBox = document.querySelector("#img-box");
+const imgTag = imgBox.firstChild;
+console.log(imgTag);
 
 console.log(btn);
 let inputFieldValue = undefined;
